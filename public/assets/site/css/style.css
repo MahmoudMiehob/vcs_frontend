@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mahmoud{
+    width: 800px;
+    margin: auto;
+    background-color: red;
+    color: wheat;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+/* @media (max-width: 992px) {
+    .mahmoud{
+        width: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .mahmoud{
+        width: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mahmoud{
+        width: 20px;
+    }
+} */
+
+/* @media (min-width: 600px) {
+    .mahmoud{
+        width: 20px;
+    }
+} */
+
+
+/* @media (min-width: 600px) and (max-width: 992px) {
+    .mahmoud{
+        width: 20px;
+    }
+} */
+nav{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+nav ul li{
+    padding-left: 10px;
+}
+
+nav ul li img{
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 768px){
+    nav ul li{
+visibility: hidden;    }
+    nav ul li img{
+visibility: visible;    }
+}
